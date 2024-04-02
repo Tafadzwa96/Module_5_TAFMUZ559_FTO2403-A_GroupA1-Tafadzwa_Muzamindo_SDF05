@@ -32,7 +32,7 @@ function startGame() {
     let secondCard = getRandomCard()
     cards = [ firstCard, secondCard]
     sum = firstCard + secondCard
-    renderGame
+    renderGame()
     
 }
 
@@ -61,7 +61,8 @@ function newCard() {
         let card = getRandomCard()
     sum += card
 cards.push(card)
-renderGame
+
+renderGame()
 }
 
 }
